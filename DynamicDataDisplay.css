@@ -1,0 +1,78 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+
+
+section
+{
+    background-color: #c6c1c1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card
+{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 30px 1px black;
+    margin: 20px;
+    overflow: hidden;
+}
+
+
+.card img{
+    width: 100%;
+    height:290px;
+    transition: all 1s;
+}
+
+.card:hover img{
+    transform: scale(1.3);
+}
+
+.search{
+    padding: 10px;
+    width: 300px;
+}
+
+button
+{
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.mysearch
+{
+    margin: 20px 200px;
+}
+
+
+.nodata
+{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+    color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: center;
+    
+}
